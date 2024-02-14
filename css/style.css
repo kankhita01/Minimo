@@ -1,0 +1,42 @@
+* { margin: 0px; padding: 0px; }
+header { display: flex; justify-content: space-between; width: 90%; margin-left: 5%; margin-top: 20px; margin-bottom: 20px; }
+.logo { width: 20%; }
+.nav { }
+header nav { width: 50%; }
+header nav ul { display: flex; list-style: none; justify-content: end; }
+header nav ul li { margin-left: 50px; }
+header nav ul li a { text-decoration: none; color: rgb(98, 98, 98); text-transform: uppercase; font-family: "Playfair Display", serif; }
+.banner_section { width: 90%; margin-left: 5%; }
+.banner_section img { width: 100%; }
+.photodairy { margin: 70px auto; width: 80%; }
+.photodairy h1 { color: rgb(98, 98, 98); font-size: 30px; font-weight: 400; text-transform: capitalize; margin-bottom: 15px; font-family: "Playfair Display", serif; }
+.photodairy h5 { color: rgb(180, 173, 158); margin-bottom: 15px; font-size: 14px; font-weight: 400; text-transform: uppercase; font-family: Ubuntu, sans-serif; }
+.photodairy p { font-family: "Playfair Display", serif; color: rgb(98, 98, 98); margin-bottom: 15px; font-size: 15px; line-height: 22px; }
+.photodairy h6 { color: rgb(180, 173, 158); margin-bottom: 15px; font-size: 14px; font-weight: 400; text-transform: uppercase; font-family: Ubuntu, sans-serif; }
+.feature_section { display: flex; width: 80%; margin: auto; justify-content: space-between; flex-wrap: wrap; }
+.feature_item { width: 48%; }
+.feature_item img { width: 100%; }
+.feature_item h5 { color: rgb(180, 173, 158); margin-top: 15px; text-transform: uppercase; margin-bottom: 15px; font-size: 14px; font-weight: 400; font-family: Ubuntu, sans-serif; }
+.feature_item h1 { color: rgb(98, 98, 98); font-size: 30px; font-weight: 400; font-family: "Playfair Display", serif; margin-bottom: 15px; }
+.feature_item p { font-family: "Playfair Display", serif; color: rgb(98, 98, 98); font-size: 14px; font-weight: 400; line-height: 22px; margin-bottom: 70px; }
+.newsletter { background: rgb(240, 240, 240); padding: 70px 0px; margin-bottom: 70px; }
+.content { width: 24%; margin: auto; }
+.content h2 { color: rgb(98, 98, 98); font-size: 30px; font-weight: 400; font-family: "Playfair Display", serif; margin-bottom: 50px; }
+.content input { border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid; background: transparent; width: 100%; font-size: 14px; }
+.content input:focus { outline: none; }
+.content input::placeholder { font-family: "Playfair Display", serif; color: rgb(98, 98, 98); }
+.load { text-align: center; margin: 50px 0px; }
+.load button { background: transparent; font-size: 16px; padding: 20px 30px; border: 1px solid rgb(0, 0, 0); text-transform: capitalize; }
+footer {width: 100%; margin-top: 150px;background: rgb(240, 240, 240);padding: 30px 0;}
+.footer_content {width: 80%;margin: auto;display: flex;justify-content: space-between;}
+.terms {}
+.terms ul {list-style: none;display: flex;}
+.terms li {margin-right: 15px;}
+.terms li a {text-decoration: none;text-transform: capitalize;font-size: 14px;color: rgb(98, 98, 98);}
+.social_content {}
+.social_content ul {list-style: none;display: flex;}
+.social_content ul li {
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+.social_content ul li a {text-decoration: none;color: #626262;}
